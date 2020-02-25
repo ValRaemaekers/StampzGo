@@ -41,8 +41,8 @@ var app = angular.module('StampzGo_App', [
 //DO NOT EDIT THIS ROUTES, USE NEXT COMMENT SECTION
 
 // START - ROUTE
-	.when('/home', {
-	  templateUrl: 'html/Home.html',
+	.when('/users', {
+	  templateUrl: 'html/UserList.html',
 	  resolve: {
 		  user: ["AuthenticationService", function(AuthenticationService) { return AuthenticationService.isAuthenticated(); }]
 	  },

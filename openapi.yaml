@@ -342,11 +342,19 @@ components:
       x-skaffolder-name: StampzGo_db
   x-skaffolder-page:
     - x-skaffolder-id: 5e55704452a8e9561a0d0ba0
-      x-skaffolder-name: Home
-      x-skaffolder-url: /home
-      x-skaffolder-template: 
-      x-skaffolder-resource: 
-      x-skaffolder-services: 
+      x-skaffolder-name: UserList
+      x-skaffolder-url: /users
+      x-skaffolder-template: List_Crud
+      x-skaffolder-resource: 5e55704452a8e9561a0d0ba1
+      x-skaffolder-services:
+        - 5e55704452a8e9561a0d0baa
+        - 5e55704452a8e9561a0d0ba8
+        - 5e55704452a8e9561a0d0baa
+        - 5e55704452a8e9561a0d0ba4
+        - 5e55704452a8e9561a0d0ba5
+        - 5e55704452a8e9561a0d0bac
+        - 5e55704452a8e9561a0d0ba8
+        - 5e55704452a8e9561a0d0baa
       x-skaffolder-nesteds: 
       x-skaffolder-links: 
       x-skaffolder-roles: []
